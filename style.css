@@ -35,32 +35,10 @@ main p {
     font-size: 1.2em;
 }
 
-main strong {
-    color: var(--cor5);
-    font-weight: bold;
-    padding: 0px 6px;
-}
-
-main a {
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 0.9em;
-    color: var(--cor4);
-    background-color: var(--cor1);
-    border-radius: 10px;
-    padding: 5px;
-}
-
-main a:hover{
-    text-decoration: underline;
-    color: black;
-}
-
 body {
     background-color: var(--cor1);
     font-family: var(--fonte-base);
 }
-
 
 header {
     min-height: 100px;
@@ -90,7 +68,7 @@ header > p {
     font-family: var(--fonte-base);
     font-size: 1.2em;
     color: white;
-    max-width: 500px;
+    max-width: 700px;
     padding-right: 10px;
     padding-left: 10px;
     text-shadow: 2px 2px 0px #0000006c;
@@ -107,10 +85,11 @@ nav > a {
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
-    transition-duration: 0.6s;
+    transition-duration: 0.5s;
 }
 
 nav > a:hover {
+    
     background-color: var(--cor2);
     border-radius: 20px;
     color: var(--cor5);
@@ -136,6 +115,8 @@ main {
 }
 
 .produto {
+    box-shadow: 3px 3px 20px 0px #000000a1;
+    border-radius: 20px;
     padding: 30px;
     background-color: lightgray;
     max-width: 300px;
@@ -161,55 +142,17 @@ main h2 {
     border-radius: 5px;
 }
 
-main img {
-    width: 100%;
-}
-
-.video {
-    background-color: var(--cor4);
-    margin: 0px -25px 30px -25px;
-    padding: 20px;
-    display: flex;
-    box-shadow: 0px 15px 15px #0000004d;
-}
-
-.video > iframe {
-    flex: auto;
-
-}
-
-.pq {
-    max-width: 350px;
-    display: block;
-    margin: auto;
-}
-
-aside {
-    background-color: var(--cor1);
-    padding: 10px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px #00000041;
-}
-
-aside ul {
-    list-style-type: '\1F5F8\00a0\00a0';
-    list-style-position: inside;
-    columns: 2;
-}
-
-aside > h3 {
-    background-image: linear-gradient(to right, var(--cor5), transparent);
-    color: white;
-    padding: 10px;
-    margin: -10px -10px 0px -10px;
-}
-
 footer {
-    background-color: var(--cor5);
+    background-color: var(--cor3);
     color: white;
     text-align: center;
     font-size: 0.9em;
     padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .rodape {
