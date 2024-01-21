@@ -42,7 +42,7 @@ body {
 
 header {
     min-height: 100px;
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
+    background-color: var(--cor1);
     text-align: center;
     padding-top: 30px;
 }
@@ -74,7 +74,7 @@ header > p {
 }
 
 nav{
-    background-color: var(--cor5);
+    background-color: var(--cor4);
     padding: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.39);
 }
