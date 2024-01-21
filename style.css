@@ -50,7 +50,7 @@ header {
 header img {
     padding: 10px;
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: var(--cor0);
     box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.603);
 }
 
