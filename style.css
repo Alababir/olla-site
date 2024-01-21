@@ -75,7 +75,7 @@ header > p {
 
 nav{
     background-color: var(--cor4);
-    padding: 10px;
+    padding: 15px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.39);
 }
 
@@ -101,7 +101,7 @@ main {
     margin-bottom: 30px;
     padding: 25px;
     border-radius: 0px 0px 10px 10px;
-    background-color: white;
+    background-color: #1a394e;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
 }
 
@@ -121,6 +121,19 @@ main {
     max-width: 300px;
     min-width: 75px;
     height: 300px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.produto:hover {
+    transition-duration: 0.2s;
+    background-color: #005799;
+}
+
+.coiso {
+    max-width: 15vw;
+    min-width: 100px;
 }
 
 main h1 {
