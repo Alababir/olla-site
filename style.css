@@ -61,15 +61,19 @@ body {
     font-family: var(--fonte-base);
 }
 
-a.externo::after {
-    content: '\00a0\1F517';
-}
 
 header {
-    min-height: 150px;
+    min-height: 100px;
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
+}
+
+header img {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.603);
 }
 
 header > h1 {
