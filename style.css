@@ -97,17 +97,20 @@ nav{
 
 nav > a {
     color: #fff;
+    opacity: 0.75;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
+    border: 2px solid transparent;
 }
 
 nav > a:hover {
-    
+    color: #fff;
+    opacity: 1;
+    border: 2px solid hsla(0, 0%, 100%, 0.5);
     background-color: var(--cor2);
     border-radius: 20px;
-    color: var(--cor5);
 }
 
 main {
@@ -133,6 +136,7 @@ main {
     box-shadow: 3px 3px 20px 0px #000000a1;
     border-radius: 20px;
     padding: 30px;
+    margin: 50px;
     background-color: lightgray;
     max-width: 300px;
     min-width: 75px;
@@ -143,8 +147,10 @@ main {
 }
 
 .produto:hover {
-    transition-duration: 0.2s;
+    box-shadow: 3px 3px 20px 0px #000;
+    transition-duration: 0.3s;
     background-color: #005799;
+    padding: 35px;
 }
 
 .coiso {
