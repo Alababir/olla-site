@@ -153,11 +153,6 @@ main {
     padding: 30px;
 }
 
-.coiso {
-    max-width: 15vw;
-    min-width: 100px;
-}
-
 main h1 {
     font-weight: normal;
     color: var(--cor5);
