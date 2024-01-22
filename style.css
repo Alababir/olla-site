@@ -42,9 +42,13 @@ body {
 
 header {
     min-height: 100px;
-    background-color: var(--cor1);
+    background-image: url(imagens/fundo-grafite.jpeg);
     text-align: center;
     padding-top: 30px;
+    /*filter: grayscale(80%); */
+    display: flex;
+    align-items: center;
+    align-content: center;
 }
 
 header img {
@@ -54,7 +58,7 @@ header img {
     box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.603);
 }
 
-header > h1 {
+header  h1 {
     color: white;
     font-weight: normal;
     font-family: var(--fonte-destaque);
@@ -63,7 +67,18 @@ header > h1 {
     text-shadow: 2px 2px 0px #0000006c;
 }
 
-header > p {
+.glass {
+    padding: 10px;
+    margin: auto;
+    border-radius: 30px;
+    margin-bottom: 60px;
+    background: transparent;
+    border: 1px solid gray;
+    max-width: 500px;
+    backdrop-filter: blur(10px);
+}
+
+header  p {
     margin: auto;
     font-family: var(--fonte-base);
     font-size: 1.2em;
