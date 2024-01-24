@@ -10,12 +10,12 @@
 
 
 :root {
-    --cor0: #ffcc80;
-    --cor1: #173144;
-    --cor2: #995c00;
-    --cor3: #593e16;
-    --cor4: #005799;
-    --cor5: #ffcc80;
+    --cor0: #373739;
+    --cor1: #19191a;
+    --cor2: #020202;
+    --cor3: #60d4ea;
+    --cor4: #60d4ea;
+    --cor5: #24515a;
 
     --fonte-base: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
@@ -41,6 +41,9 @@ body {
 }
 
 header {
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center center;
     min-height: 100px;
     background-image: url(imagens/fundo-grafite.jpeg);
     text-align: center;
@@ -69,7 +72,7 @@ header  h1 {
 
 .glass {
     padding: 10px;
-    width: 25vw;
+    width: 400px;
     margin: auto;
     border-radius: 30px;
     margin-bottom: 60px;
