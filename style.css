@@ -45,7 +45,7 @@ header {
     background-size: 100vw;
     background-position: center center;
     min-height: 100px;
-    background-image: url(imagens/fundo-grafite.jpeg);
+    background-color: rgb(124, 123, 123);
     text-align: center;
     padding-top: 30px;
     /*filter: grayscale(80%); */
